@@ -3,8 +3,8 @@
  */
 package temp;
 
-import java.util.ArrayList;
-import java.util.HashMap;
+//import java.util.ArrayList;
+//import java.util.HashMap;
 
 /**
  * @author uditgupta
@@ -46,6 +46,7 @@ public class Task3 {
 		int n = 10;
 		int[] T = new int[n];
 		T[0] = 9;T[1] = 1;T[2] = 4;T[3] = 9;T[4] = 0;T[5] = 4;T[6] = 8;T[7] = 9;T[8] = 0;T[9] = 1;
+		@SuppressWarnings("unused")
 		int capital = -1;
 		for(int i = 0;i<T.length; i++){
 			if(T[i] == i){
@@ -64,7 +65,7 @@ public class Task3 {
 		}
 		print();
 		//distance of ith node from capital
-		int[] distance = new int[10];
+		//int[] distance = new int[10];
 //		for(int i = 0;i<T.length; i++){
 //			distance[i] = 
 //		}
