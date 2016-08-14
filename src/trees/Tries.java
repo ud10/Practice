@@ -3,10 +3,15 @@ import java.util.*;
 class TrieNode{
 	char c;
 	boolean isLeaf;
-	HashMap<Character, TrieNode> children;// = new HashMap<Character, TrieNode>();
-	TrieNode(){}
+	HashMap<Character, TrieNode> children;
+	TrieNode(){
+		children = new HashMap<Character, TrieNode>();
+		isLeaf = false;
+	}
 	TrieNode(char c){
 		this.c = c;
+		children = new HashMap<Character, TrieNode>();
+		isLeaf = false;
 	}
 }
 public class Tries {
